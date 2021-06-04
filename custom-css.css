@@ -1,0 +1,213 @@
+* {
+	font-family: "highgate", sans-serif;
+}
+
+div#top-bar-content {
+    margin-bottom: -160px;
+    padding-top: 14px;
+}
+
+#site-navigation {
+	padding-top: 30px;
+}
+
+#menu-languages .menu-link {
+	width: 20px !important;
+	height: auto !important;
+	font-size: 17px;
+	font-family: "highgate", sans-serif;
+} 
+
+
+#menu-languages:hover .menu-link:hover {
+	font-weight: bold; 
+}
+
+.current_page_item, .current-lang {
+	font-weight: bold; 
+}
+
+#site-navigation-wrap .dropdown-menu >li >a, .oceanwp-mobile-menu-icon a, .mobile-menu-close, .after-header-content-inner >a {
+		line-height: 120px !important;
+}
+
+/* buttons */
+.wp-block-button__link {
+	  color: #fff;
+    background-color: #003A57;
+    border: solid 1px #005C87;
+    border-radius: 0;
+}
+.wp-block-button__link:hover {
+	  color: #fff;
+    background-color: #005C87;
+    border-radius: 0;
+}
+
+
+/* footer */
+@media screen and (min-width: 960px) {
+		.footer-widgets-inner.container {
+			display: flex;
+			align-items: flex-end;
+}
+
+.footer-box.span_1_of_4.col.col-1 {
+	padding-right: 0px !important;
+}
+.footer-box.span_1_of_4.col.col-2, .footer-box.span_1_of_4.col.col-3{
+	padding-left: 20px !important;
+}
+figure.flexing {
+	margin-bottom: 60px;
+}
+}
+figure.flexing {
+	display: flex;
+	margin-top: auto;
+
+}
+.widget-title {
+	display: none;
+}
+h2.white-text{
+	color: white;
+	font-family: "Marcellus SC";
+	font-size: 24px !important;
+	font-weight: 400; 
+}
+
+/* HOME PAGE */
+.home #content-wrap {
+	padding: 0px !important;
+}
+
+/* logo to top */
+@media screen and (min-width: 960px) {
+	.home div#site-header-inner {
+		width: 100vw !important;
+		max-width: 100%;
+		margin: 0px;
+	}
+	.home #site-header {
+	padding: 90px 0;
+	/*to get the header the right size*/
+}
+	
+.home #site-navigation {
+	display: flex;
+	justify-content: center;
+	background: #000;
+	padding: 16px !important;
+	padding-left: 20px !important;
+}
+.home #site-navigation-wrap {
+	position: absolute;
+	padding-top: 190px;
+	width: 100vw;
+	right: 0px !important; 
+}
+.home #site-navigation-wrap .dropdown-menu >li >a {
+	line-height: 30px !important;
+}
+.home #site-logo #site-logo-inner a {
+	display:none;
+	/*remove the other logo*/
+}
+	.home .theLogoFrontPage{
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+	top: -290px;
+}
+.home .theLogoFrontPage img {
+	height: 200px;
+	width: auto;
+}
+}
+
+
+/*navigation images*/
+.NavigationImages h2 {
+	margin-bottom: 0px;
+	font-size: 1.8em;
+	padding: 8px 24px;
+	background-color:#0000009A !important;
+}
+.NavigationImages h2:hover{
+	background-color:#000000BF !important;
+}
+.NavigationImages h2 a{
+	color: #ffffff;
+}
+.navImg {
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.navImg div{
+	width: 100% !important;
+}
+
+@media screen and (min-width: 600px) {
+.NavigationImages{
+	flex-wrap: nowrap;
+}
+	.thirdNavImgCol {
+	margin-left: 2em !important;
+}
+}
+
+@media screen and (min-width: 800px) {
+	.chooseSaddleFPtext{
+		padding-left: 20px;
+	}
+}
+
+
+@media screen and (max-width: 600px) {
+.navImg {
+	min-height: 200px !important;
+}
+	.navImgCol{
+		margin-top: 20px !important;
+	}
+}
+
+
+
+
+/* Product thumbnail */
+li.title{
+		font-family: "marcellus sc";
+}
+
+li.title h2 a{
+	font-size: 30px !important;
+	font-weight: 500;
+}
+
+.page:not(.elementor-page):not(.woocommerce-page) .entry a:not(.wp-block-button__link):not(.wp-block-file__button) {
+	 	text-decoration: none !important;
+}
+
+/*  Product FILTERING  */ 
+@media screen and (min-width: 960px) {
+	/**/
+.wpfMainWrapper {
+	display: inline-flex !important; 
+	align-content: center;
+}
+.wpfFilterContent select {
+	display: flex;
+	width: 45% !important;
+	margin-left: auto;
+	margin-right:50px;
+}
+}
+
+/*  OTHER  */
+@media screen and (max-width: 959px) {
+.hideOnSmaller {
+	display: none;
+}}
